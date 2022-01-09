@@ -54,7 +54,7 @@
       3. Add html
       4. Add css
 
-8. Cart Page
+9. Cart Page
    1. Create CartItem Model
    2. Create Cart Model
    3. Generate Cart service
