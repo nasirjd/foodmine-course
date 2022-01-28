@@ -91,3 +91,15 @@
     11. Add HttpClient module
     12. Update food service
 
+12. Login Page
+    1.  Generate Component
+        1.  Add to routes
+        2.  Add ts 
+        3.  Add html
+            1.  Import Reactive Forms Module
+        4.  Add Css
+    2.  Add Login Api
+        1.  Use json
+        2.  Add jsonwebtoken
+        3.  Test Using Postman
+    3.  Part 2 ...
