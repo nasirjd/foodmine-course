@@ -1,0 +1,21 @@
+.container{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+button{
+  height: 3.5rem;
+  border: none;
+  outline: none;
+  font-weight: 100;
+  border-radius: 0.8rem;
+  width: 100%;
+  margin: 1rem auto;
+  opacity: 0.8;
+}
+
+button:hover{
+cursor: pointer;
+opacity: 1;
+}
