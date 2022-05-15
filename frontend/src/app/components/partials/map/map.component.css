@@ -1,0 +1,29 @@
+.container{
+  position: relative;
+  width: 35rem;
+  height: 22rem;
+  text-align: center;
+}
+
+.map{
+  width: 100%;
+  height: 100%;
+}
+
+.find-location{
+  position: absolute;
+  margin: auto;
+  width: 15rem;
+  min-height: 3rem;
+  font-size: 1.2rem;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: #ffffff7c;
+  cursor: pointer;
+}
+
+.find-location:hover{
+  background-color: white;
+}
