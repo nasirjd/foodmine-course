@@ -190,3 +190,12 @@
     3. Add Order Service method
     4. Connect Component to Service
     5. Make the map component readonly
+
+19. Adding Paypal
+    1. Generate Component
+       1. Add to payment page
+    2. Get Paypal client Id
+    3. Add Paypal JS to index.html
+    4. Set up Paypal button
+    5. Add Pay api to order router   
+    6. Get Paypal sandbox account
