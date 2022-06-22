@@ -208,3 +208,15 @@
     3.  Add method to order.service
     4.  Add HTML
     5.  Add CSS
+
+21. Deploy On Heroku
+    1.  OutputPath in angular.json
+    2.  package.json
+        1.  frontend
+        2.  backend
+        3.  root
+    3.  BASE_URL in urls.ts
+    4.  Public folder config in server.ts
+    5.  Run commands
+    6.  Add built folder to .gitignore
+    7.  Commit and Push
