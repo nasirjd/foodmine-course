@@ -220,3 +220,13 @@
     5.  Run commands
     6.  Add built folder to .gitignore
     7.  Commit and Push
+
+22. Updating Packages (Optional)
+    1.  Install npm-check-upates as a global package
+    2.  Run ncu -u in the frontend folder
+    3.  Downgrade typescript to version ~4.8.2
+    4.  Run npm install --force
+    5.  Run npm start
+    6.  Run ncu -u in the backend folder
+    7.  Run npm install
+    8.  Run npm start
