@@ -30,6 +30,6 @@ export class HeaderComponent implements OnInit {
   }
 
   get isAuth(){
-    return this.user.token;
+    return this.user.name;
   }
 }
