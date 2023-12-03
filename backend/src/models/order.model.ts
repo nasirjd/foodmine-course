@@ -54,10 +54,10 @@ export interface Order{
   },{
       timestamps: true,
       toJSON:{
-          virtuals: true
+          visuals: true
       },
       toObject:{
-          virtuals: true
+          visuals: true
       }
   });
 

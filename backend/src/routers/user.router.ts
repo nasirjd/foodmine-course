@@ -26,7 +26,7 @@ router.post("/login", asyncHandler(
     const user = await UserModel.findOne({email});
   
      if(user && (await bcrypt.compare(password,user.password))) {
-      res.send(generateTokenReponse(user));
+      res.send(generateTokenResponse(user));
      }
      else{
        res.status(HTTP_BAD_REQUEST).send("Username or password is invalid!");
@@ -57,11 +57,11 @@ router.post('/register', asyncHandler(
     }
 
     const dbUser = await UserModel.create(newUser);
-    res.send(generateTokenReponse(dbUser));
+    res.send(generateTokenResponse(dbUser));
   }
 ))
 
-  const generateTokenReponse = (user : User) => {
+  const generateTokenResponse = (user : User) => {
     const token = jwt.sign({
       id: user.id, email:user.email, isAdmin: user.isAdmin
     },process.env.JWT_SECRET!,{

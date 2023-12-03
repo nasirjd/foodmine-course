@@ -24,10 +24,10 @@ export const FoodSchema = new Schema<Food>(
         cookTime: {type: String, required:true}
     },{
         toJSON:{
-            virtuals: true
+            visuals: true
         },
         toObject:{
-            virtuals: true
+            visuals: true
         },
         timestamps:true
     }

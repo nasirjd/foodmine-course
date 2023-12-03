@@ -22,6 +22,7 @@
     "express": "^4.18.2",
     "express-async-handler": "^1.2.0",
     "jsonwebtoken": "^8.5.1",
+    "mongodb": "^6.3.0",
     "mongoose": "^6.7.5",
     "typescript": "^4.9.3"
   },
