@@ -18,10 +18,10 @@ export const UserSchema = new Schema<User>({
 }, {
     timestamps: true,
     toJSON:{
-        virtuals: true
+        visuals: true
     },
     toObject:{
-        virtuals: true
+        visuals: true
     }
 });
 
